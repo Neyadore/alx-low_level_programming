@@ -17,9 +17,9 @@ int main(void)
 	strcpy(alpha, "abcdefghijklmnopqrstuvwxyz");
 
 	for (i = 0; i < 26; i++)
-		{
-			putchar(alpha[i]);
-		}
+	{
+		putchar(alpha[i]);
+	}
 	putchar('\n');
 	return (0);
 }
