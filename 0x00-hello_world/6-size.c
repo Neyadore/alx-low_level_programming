@@ -1,4 +1,4 @@
-#include <stdio.h>
+f#include <stdio.h>
 
 /**
  * main - Entry point
@@ -14,11 +14,11 @@ int main(void)
 	long long int longlonginttype;
 	float floattype;
 
-	printf("Size of a char: %zu\n", sizeof(chartype));
-	printf("Size of an int: %zu\n", sizeof(inttype));
-	printf("Size of a long int: %zu\n", sizeof(longinttype));
-	printf("Size of a long long int: %zu\n", sizeof(longlonginttype));
-	printf("Size of a float: %zu\n", sizeof(floattype));
+	printf("Size of a char: %zu byte(s)\n", sizeof(chartype));
+	printf("Size of an int: %zu byte(s)\n", sizeof(inttype));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(longinttype));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(longlonginttype));
+	printf("Size of a float: %zu byte(s)\n", sizeof(floattype));
 
 	return (0);
 }
