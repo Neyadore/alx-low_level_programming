@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * main - Entry point
@@ -9,6 +12,6 @@
 int main(void)
 {
 	fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59, 1, stderr);
-	exit (FAILURE);
+	exit(101);
 	return (1);
 }
