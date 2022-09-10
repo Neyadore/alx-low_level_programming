@@ -10,12 +10,13 @@
 int main(void)
 {
 	char ch;
+	int i;
 
+	for (i = 0; i < 10; i++)
+		putchar(i + '0');
 
-	for (ch = 97; ch >= ; ch--)
-	{
+	for (ch = 97; ch <= 102; ch++)
 		putchar(ch);
-	}
 	putchar('\n');
 
 	return (0);
