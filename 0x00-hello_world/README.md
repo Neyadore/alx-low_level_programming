@@ -1,1 +1,1 @@
-this file runs a c file and save the output
+this is my readme
