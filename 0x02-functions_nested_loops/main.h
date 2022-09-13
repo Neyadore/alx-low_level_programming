@@ -1,2 +1,2 @@
 int _putchar(char c);
-int strcpy(char* destination, constant char* source);
+char *strcpy(char *dest, const char *src);
