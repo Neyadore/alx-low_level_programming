@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	string str1[8];
+	char *str1;
 
 	strcpy(str1, "_putchar");
 	for (i = 0; i < 8; i++)
