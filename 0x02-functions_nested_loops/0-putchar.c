@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -14,7 +14,7 @@ int main(void)
 	strcpy(str1, "_putchar");
 	for (i = 0; i < 8; i++)
 	{
-		putchar(str1[i]);
+		_putchar(str1[i]);
 	}
 	putchar("\n");
 }
