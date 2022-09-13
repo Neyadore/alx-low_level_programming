@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i;
-	char str1[8];
+	char str1[9];
 
 	strcpy(str1, "_putchar");
 	for (i = 0; i < 8; i++)
