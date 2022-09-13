@@ -10,6 +10,7 @@
 
 int main(void)
 {
+	int i;
 	char *str1;
 
 	strcpy(str1, "_putchar");
@@ -17,5 +18,7 @@ int main(void)
 	{
 		_putchar(str1[i]);
 	}
-	putchar("\n");
+	putchar('\n');
+
+	return (0);
 }
