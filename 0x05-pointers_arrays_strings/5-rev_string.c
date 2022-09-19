@@ -16,7 +16,7 @@ void rev_string(char *s)
 	int j = strlen(s);
 
 	a = (char *)malloc(j * sizeof(char));
-	for (i = j - 1, k = 0; i >= 0, k < j; k++, i--)
+	for (i = j - 1, k = 0; k < j; k++, i--)
 	{
 		a[k] = s[i];
 	}
