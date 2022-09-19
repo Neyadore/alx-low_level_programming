@@ -8,9 +8,8 @@
 
 int main(void)
 {
-	int num;
-	int *n = &num;
-
+	int *n;
+	
 	*n = 98;
 
 	return (0);
