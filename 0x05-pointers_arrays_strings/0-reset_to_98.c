@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
 */
 
-int main(void)
+int reset_to_98(int *n)
 {
 	int num;
 	int *n = &num;
