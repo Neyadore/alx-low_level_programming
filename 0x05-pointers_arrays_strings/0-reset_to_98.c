@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * reset_to_98 - resests value fo given integer to 98
+ * @n : parameter
+ * Return: nothing
 */
 
 void reset_to_98(int *n)
