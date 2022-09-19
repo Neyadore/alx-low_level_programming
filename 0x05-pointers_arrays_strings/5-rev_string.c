@@ -20,5 +20,5 @@ void rev_string(char *s)
 	{
 		a[k] = s[i];
 	}
-	s = a;
+	strcpy(s, a);
 }
