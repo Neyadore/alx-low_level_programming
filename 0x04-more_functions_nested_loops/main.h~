@@ -1,0 +1,7 @@
+#ifndif MAIN_h
+#define MAIN_H
+
+_putchar (char c);
+
+
+#endif
