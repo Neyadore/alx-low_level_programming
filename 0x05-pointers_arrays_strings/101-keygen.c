@@ -1,4 +1,8 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
 /**
  *main - generates random pass owrd for 101-crackme
  *
@@ -7,6 +11,9 @@
 
 int main(void)
 {
+	int sum, index, diff_half1, diff_half2;
+	char password[84];
+
 	srand(time(0));
 
 	while (sum < 2772)
@@ -15,7 +22,6 @@ int main(void)
 		sum += password[index++];
 	}
 	password[index] = '\0';
-
 	if (sum != 2772)
 	{
 		diff_half1 = (sum - 2772) / 2;
@@ -39,7 +45,6 @@ int main(void)
 			}
 		}
 	}
-
 	printf("%s", password);
 	return (0);
 }
