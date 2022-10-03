@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		if (isdigit(atoi(argv[i])) == 1)
+		if (isdigit(atoi(argv[i])))
 		{
 			sum = sum + atoi(argv[i]);
 		}
