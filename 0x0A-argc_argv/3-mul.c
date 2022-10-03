@@ -3,7 +3,7 @@
 /**
  *main - prints prduct os two numbers
  *@argc: number
- *argv: list
+ *@argv: list
  *Return: Always nothing (0);
  */
 
@@ -16,10 +16,11 @@ int main(int argc, char const *argv[])
 
 	if (argc != 3)
 		return (1);
-	a = argv[1];
-	b = argv[2];
-	product = (a * b);
-	printf("%i\n", product);
+
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		product = (a * b);
+		printf("%i\n", product);
 
 	return (0);
 }
