@@ -13,11 +13,12 @@ int main(int argc, char const *argv[])
 {
 	int sum = 0;
 	int i;
+	int x;
 
 	if (argc == 1)
 		printf("0\n");
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		if (isdigit(atoi(argv[i])) && atoi(argv[i]) > 0)
 			sum = sum + atoi(argv[i]);
