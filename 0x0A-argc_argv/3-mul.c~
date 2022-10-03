@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ *main - prints prduct os two numbers
+ *@argc: number
+ *argv: list
+ *Return: Always nothing (0);
+ */
+
+
+int main(int argc, char const *argv[])
+{
+	int product;
+	if (argc != 3)
+		return (1);
+
+	int product = (argv[1] * argv[2]);
+	printf("%i\n", product);
+
+	return (0);
+}
