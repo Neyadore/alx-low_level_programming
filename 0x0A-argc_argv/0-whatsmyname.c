@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,8 +7,8 @@
  *Return: Always nothing (0);
 */
 
-int mynameis(char *argv[])
+int mynameis(char const *argv[])
 {
-	printf("%s", argv[0]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
