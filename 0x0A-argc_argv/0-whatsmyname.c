@@ -7,8 +7,9 @@
  *Return: Always nothing (0);
 */
 
-int mynameis(char const *argv[])
+int mynameis(int argc, char const *argv[])
 {
+	(void)argc;
 	printf("%s\n", argv[0]);
 	return (0);
 }

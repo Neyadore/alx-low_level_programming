@@ -2,6 +2,6 @@
 #define MAIN_H
 
 int _putchar(int);
-int mynameis(char const *argv[]);
+int mynameis(int argc, char const *argv[]);
 
 #endif
