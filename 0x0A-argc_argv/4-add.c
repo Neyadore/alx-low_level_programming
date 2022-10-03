@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 		{
 			sum = sum + atoi(argv[i]);
 		}
-	       	else
+		else
 		{
 			printf("Error\n");
 			return (1);
