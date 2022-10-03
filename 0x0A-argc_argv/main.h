@@ -6,6 +6,6 @@
 
 
 int _putchar(int);
-int mynameis(int argc, char const *argv[]);
+int main(int argc, char const *argv[]);
 
 #endif
