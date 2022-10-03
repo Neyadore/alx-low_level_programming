@@ -9,10 +9,9 @@
 
 int main(int argc, char const *argv[])
 {
-	(void)argc;
 	int i;
 
-	for (i = 1; argv[i] != NULL; i++)
+	for (i = 1; i < argc; i++)
 	{
 		printf("%s\n", argv[i]);
 		return (0);
