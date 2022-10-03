@@ -1,9 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  *mynameis - this program prints its own name.
  *@argv: array of function names and arguements;
+ *@argc: number of arguments cmmnd line;
  *Return: Always nothing (0);
 */
 
