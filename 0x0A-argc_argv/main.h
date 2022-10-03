@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int putchar(int);
-int _whatsmyname(char *argv[]);
+int _putchar(int);
+int mynameis(char *argv[]);
 
 #endif
