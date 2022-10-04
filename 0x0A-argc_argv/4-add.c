@@ -11,7 +11,8 @@
 
 int main(int argc, char const *argv[])
 {
-	int arg, digit, sum;
+	int arg, digit;
+	int sum = 0;
 
 	if (argc == 1)
 	{
@@ -28,11 +29,8 @@ int main(int argc, char const *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			else
-			{
-				sum = sum + atoi(argv[arg]);
-			}
 		}
+		sum = sum + atoi(argv[arg]);
 	}
 	printf("%i\n", sum);
 	return (0);
