@@ -11,22 +11,29 @@
 
 int main(int argc, char const *argv[])
 {
-	int sum = 0;
-	int i;
-	int x;
+	int arg, digit, sum;
 
 	if (argc == 1)
-		printf("0\n");
-
-	for (i = 1; i < argc; i++)
 	{
-		if (isdigit(atoi(argv[i])) && atoi(argv[i]) > 0)
-			sum = sum + atoi(argv[i]);
-		else
+		printf("0\n");
+		return (0);
+	}
+
+	for (arg = 1; arg < argc; arg++)
+	{
+		for (digit = 0; digit != '\0'; digit++)
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[arg][digit] < '0' || argv[arg][digit] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+			else
+			{
+				sum = sum + atoi(argv[arg]);
+			}
 		}
 	}
 	printf("%i\n", sum);
-	}
+	return (0);
+}
