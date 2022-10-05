@@ -23,6 +23,8 @@ int main(int argc, char const *argv[])
 		printf("0\n");
 		return (0);
 	}
+
+	coincount = 0;
 	change = atoi(argv[1]);
 	for (i = 0; i < 5; )
 	{
