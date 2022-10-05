@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (atoi(argv[1]) < '0')
+	if (atoi(argv[1]) <= '0')
 	{
 		printf("0\n");
 		return (0);
@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 
 	coincount = 0;
 	change = atoi(argv[1]);
-	for (i = 0; i < 5; )
+	for (i = 0; i < 5; i++)
 	{
 		if (change >= coin[i])
 		{
@@ -38,11 +38,8 @@ int main(int argc, char const *argv[])
 				printf("%i\n", coincount);
 				return (0);
 			}
-			i++;
-		}
-		else
-		{
-			i++;
 		}
 	}
+	printf("%i\n", coincount);
+	return (0);
 }
