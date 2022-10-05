@@ -1,1 +1,1 @@
-This is my first c project
+THIS IS README FOR DEBUGGING
